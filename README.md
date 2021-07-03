@@ -1,4 +1,4 @@
-# vimConfig
+# lazyVim
 lazy configuration:  
 1. Copy .vimrc to ~/.vimrc  
 
