@@ -31,6 +31,7 @@ call plug#begin('~/.vim/plugged')
 Plug 'git://github.com/vim-airline/vim-airline.git/'
 Plug 'git://github.com/vim-airline/vim-airline-themes.git/'
 Plug 'git://github.com/sainnhe/vim-color-forest-night.git'
+Plug 'git://github.com/tomasiser/vim-code-dark'
 Plug 'git://github.com/mhinz/vim-startify.git/'
 Plug 'git://github.com/preservim/nerdtree.git'
 Plug 'git://github.com/xuyuanp/nerdtree-git-plugin.git'
@@ -55,13 +56,14 @@ let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#tab_nr_type = 1
 let g:airline#extensions#tabline#show_tab_nr = 1
 let g:airline#extensions#tabline#buffer_nr_show = 1
-let g:airline_theme = 'light'
+" let g:airline_theme = 'light'
 
 "==============="
 "  COLORSCHEME  "
 "==============="
 set background=dark
-colorscheme everforest
+"colorscheme everforest
+colorscheme codedark
 
 "=================="
 "  NERD COMMENTER  "
